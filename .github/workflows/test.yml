@@ -1,0 +1,25 @@
+name: Clojure Tests
+on: push
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+      - uses: DeLaGuardo/setup-clojure@12.5
+        with:
+          cli: 1.10.1.693  # Clojure CLI based on tools.deps
+      - name: Cache Clojure deps
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.m2/repository
+            ~/.gitlibs
+            ~/.deps.clj
+          key: cljdeps-${{ hashFiles('deps.edn', 'tests.edn') }}
+          restore-keys: cljdeps-
+      - name: Run tests
+        run: bin/kaocha --no-watch
