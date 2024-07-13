@@ -22,4 +22,4 @@ jobs:
           key: cljdeps-${{ hashFiles('deps.edn', 'tests.edn') }}
           restore-keys: cljdeps-
       - name: Run tests
-        run: bin/kaocha --no-watch
+        run: bin/kaocha
