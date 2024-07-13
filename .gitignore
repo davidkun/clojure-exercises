@@ -19,6 +19,7 @@ pom.xml.asc
 .lsp/.cache
 .clj-kondo/*
 !.clj-kondo/config.edn
+.calva
 
 ### macOS ###
 # General
