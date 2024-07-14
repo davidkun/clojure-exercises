@@ -2,7 +2,7 @@
 
 (ns ex.q002-test
   (:require [clojure.test :as t]
-  [ex.q002 :as sut]))
+            [ex.q002 :as sut]))
 
 (t/deftest test-q2
   (t/testing "Problem 2, Simple Math"
