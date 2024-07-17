@@ -4,6 +4,6 @@
   (:require [clojure.test :as t]
             [ex.q004 :as sut]))
 
-(t/deftest test-q3
+(t/deftest test-q4
   (t/testing "Problem 4, Lists"
     (t/is (= '(:a :b :c) (sut/ans)))))
