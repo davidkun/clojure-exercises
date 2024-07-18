@@ -4,7 +4,7 @@
   (:require [clojure.test :as t]
             [ex.q006 :as sut]))
 
-(t/deftest test=q6
+(t/deftest test-q6
   (t/testing "Problem 6, vectors"
     (t/is (= (list :a :b :c) (sut/ans)))
     (t/is (= (vec '(:a :b :c)) (sut/ans)))
