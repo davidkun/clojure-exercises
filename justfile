@@ -20,7 +20,7 @@ format:
 
 # create files for new problem set
 create prob_num: (_create_src prob_num) (_create_test prob_num)
-  @echo 'Created q{{prob_num}}.clj and tests'
+  @echo 'Created src/ex/q{{prob_num}}.clj and test/ex/q{{prob_num}}_test.clj'
 
 
 _create_src num:
