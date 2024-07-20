@@ -4,5 +4,5 @@
 
 (defn ans
   "Problem 19, Last Element, (restriction: last)"
-  [s]
-  (-> s reverse first))
+  [coll]
+  (-> coll reverse first))
