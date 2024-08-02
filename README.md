@@ -4,6 +4,15 @@ A place to keep track of problems/solutions in Clojure.
 
 The problems are from the [4clojure](https://4clojure.oxal.org).
 
+
+## Notes
+
+Handy `clojure.core` functions to keep in mind:
+
+* [`first`](https://clojuredocs.org/clojure.core/first), [`second`](https://clojuredocs.org/clojure.core/second), [`rest`](https://clojuredocs.org/clojure.core/rest), [`nth`](https://clojuredocs.org/clojure.core/nth)
+* [`partition-by`](https://clojuredocs.org/clojure.core/partition-by) and [`group-by`](https://clojuredocs.org/clojure.core/group-by)
+
+
 ## Workflow
 
 1. Get [`just`](https://github.com/casey/just) (`brew install just`)
