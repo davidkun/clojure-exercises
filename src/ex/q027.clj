@@ -2,7 +2,7 @@
  
 (ns ex.q027)
 
-(defn ans 
+(defn ans
   "Problem 27, Palindrome Detector"
   [coll]
   (= (seq coll) (reverse coll))) ;; O(n) time, but concise

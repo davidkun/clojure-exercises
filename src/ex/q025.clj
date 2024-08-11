@@ -2,7 +2,7 @@
  
 (ns ex.q025)
 
-(defn ans 
+(defn ans
   "Problem 25, Find the odd numbers"
   [coll]
   (filter odd? coll))
