@@ -9,8 +9,9 @@ The problems are from the [4clojure](https://4clojure.oxal.org).
 
 Handy `clojure.core` functions to keep in mind:
 
-* [`first`](https://clojuredocs.org/clojure.core/first), [`second`](https://clojuredocs.org/clojure.core/second), [`rest`](https://clojuredocs.org/clojure.core/rest), [`nth`](https://clojuredocs.org/clojure.core/nth)
-* [`partition-by`](https://clojuredocs.org/clojure.core/partition-by) and [`group-by`](https://clojuredocs.org/clojure.core/group-by)
+* [`first`](https://clojuredocs.org/clojure.core/first), [`second`](https://clojuredocs.org/clojure.core/second), [`nth`](https://clojuredocs.org/clojure.core/nth), [`last`](https://clojuredocs.org/clojure.core/last), [`rest`](https://clojuredocs.org/clojure.core/rest)
+* [`partition-by`](https://clojuredocs.org/clojure.core/partition-by), [`group-by`](https://clojuredocs.org/clojure.core/group-by)
+* [`partition`](https://clojuredocs.org/clojure.core/partition), [`split-at`](https://clojuredocs.org/clojure.core/split-at)
 
 
 ## Workflow
